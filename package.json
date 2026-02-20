@@ -1,0 +1,60 @@
+{
+  "name": "awqat-cli",
+  "version": "1.0.0",
+  "description": "🕌 Prayer times in your terminal — أوقات",
+  "type": "module",
+  "bin": {
+    "awqat": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsup",
+    "dev": "tsup --watch",
+    "start": "node dist/index.js",
+    "lint": "biome check --write .",
+    "format": "biome format --write .",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "keywords": [
+    "prayer",
+    "salah",
+    "muslim",
+    "islam",
+    "cli",
+    "terminal",
+    "prayer-times",
+    "awqat",
+    "aladhan"
+  ],
+  "license": "MIT",
+  "author": "",
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@clack/prompts": "^1.0.1",
+    "commander": "^14.0.3",
+    "conf": "^15.1.0",
+    "figlet": "^1.10.0",
+    "ora": "^9.3.0",
+    "picocolors": "^1.1.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.3",
+    "@types/figlet": "^1.7.0",
+    "@types/node": "^25.3.0",
+    "tsup": "^8.5.1",
+    "typescript": "^5.9.3",
+    "vitest": "^4.0.18"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": [
+      "esbuild",
+      "@biomejs/biome"
+    ]
+  }
+}
