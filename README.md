@@ -1,17 +1,8 @@
 # awqat-cli
 
-Awqat (أوقات) is Arabic for "times". Here, it's referring to the five daily prayer times in Islam.
+awqat (أوقات) is Arabic for "times". It is a terminal tool that shows Islamic prayer times for your city.
 
-A terminal tool that shows prayer times for your city.
-
-```
- █████╗ ██╗    ██╗ ██████╗  █████╗ ████████╗
-██╔══██╗██║    ██║██╔═══██╗██╔══██╗╚══██╔══╝
-███████║██║ █╗ ██║██║   ██║███████║   ██║
-██╔══██║██║███╗██║██║▄▄ ██║██╔══██║   ██║
-██║  ██║╚███╔███╔╝╚██████╔╝██║  ██║   ██║
-╚═╝  ╚═╝ ╚══╝╚══╝  ╚══▀▀═╝ ╚═╝  ╚═╝   ╚═╝
-```
+<img width="1376" height="768" alt="image" src="https://github.com/user-attachments/assets/8ef1fbf8-b7d8-4311-9fb6-c039b8d4e524" />
 
 ## Install
 
