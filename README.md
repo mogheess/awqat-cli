@@ -1,6 +1,6 @@
 # awqat-cli
 
-**أوقات** (awqat) is Arabic for "times", referring to the five daily prayer times in Islam.
+Awqat (أوقات) is Arabic for "times", referring to the five daily prayer times in Islam.
 
 A terminal tool that shows prayer times for your city.
 
